@@ -1,4 +1,4 @@
-import FullSize from '/FullSize';
+import FullSize from './FullSize';
 
 export default class SUV extends FullSize{
   constructor(name, color, engine, transmission, tires, towing, rearDoor) {

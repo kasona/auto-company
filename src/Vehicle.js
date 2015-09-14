@@ -30,9 +30,14 @@ export default class Vehicle {
   set color(color) {
     this._color = color;
   }
-
+  get tires() {
+    return this._tires;
+  }
+  set tires(tires) {
+    this._tires = tires;
+  }
   get engine() {
-    return this._color;
+    return this._engine;
   }
   set engine(engine) {
     this._engine = engine;

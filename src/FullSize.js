@@ -1,4 +1,4 @@
-import Vehicle from '/Vehicle';
+import Vehicle from './Vehicle';
 
 export default class FullSize extends Vehicle{
   constructor(name, color, engine, transmission, tires, towing) {

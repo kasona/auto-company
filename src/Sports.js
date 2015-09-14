@@ -1,4 +1,4 @@
-import Vehicle from '/Vehicle';
+import Vehicle from './Vehicle';
 
 export default class Sports extends Vehicle{
   constructor(name, color, engine, transmission, tires, spoiler) {
